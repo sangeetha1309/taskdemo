@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, input, select, button {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  header {
+    background-color: #1e1e1e;
+    padding: 1em 0;
+    color: white;
+  }
+  
+  header h1 {
+    display: inline-block;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .booking-form {
+    background-color: #f9f9f9;
+    padding: 2em 0;
+    text-align: center;
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .booking-form input,
+  .booking-form select,
+  .booking-form button {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .booking-form button {
+    background-color: #1e1e1e;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .booking-form button:hover {
+    background-color: #444;
+  }
+  
+  .events {
+    padding: 2em 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .event-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    gap: 1em;
+  }
+  
+  .event-card {
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 6px;
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+  }
+  

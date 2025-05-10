@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Ticket Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>BookMyEvent</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="booking-form">
+    <div class="container">
+      <h2>Book Your Ticket</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <select required>
+          <option value="">Select Event</option>
+          <option>Concert - New York</option>
+          <option>Theatre - London</option>
+          <option>Comedy Show - LA</option>
+        </select>
+        <input type="date" required />
+        <input type="number" placeholder="Number of Tickets" required min="1" />
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="events">
+    <div class="container">
+      <h2>Upcoming Events</h2>
+      <div class="event-grid">
+        <div class="event-card">
+          <h3>Rock Concert</h3>
+          <p>New York - June 15</p>
+        </div>
+        <div class="event-card">
+          <h3>Theatre Play</h3>
+          <p>London - July 20</p>
+        </div>
+        <div class="event-card">
+          <h3>Stand-up Comedy</h3>
+          <p>Los Angeles - August 5</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BookMyEvent. All rights reserved.</p>
+  </footer>
+</body>
+</html>
